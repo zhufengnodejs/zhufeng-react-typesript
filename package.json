@@ -8,7 +8,9 @@
     "eslint": "eslint src --ext .tsx",
     "eslint:fix": "eslint src --ext .tsx --fix"
   },
-  "pre-commit": ["eslint"],
+  "pre-commit": [
+    "eslint"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
